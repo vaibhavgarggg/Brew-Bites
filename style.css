@@ -27,13 +27,15 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: var(--primary-color);
+    background: rgba(74, 52, 40, 0.95); /* var(--primary-color) with opacity */
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1100;
+    min-height: 60px;
+    line-height: 60px;
 }
 
 .nav-brand {
