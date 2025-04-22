@@ -89,7 +89,7 @@ const menuItems = [
         name: "Cheesecake",
         price: 7.00,
         category: "desserts",
-        image: "https://images.unsplash.com/photo-1562440499-64a7a1f7a7a7?auto=format&fit=crop&w=500&q=80",
+        image: "https://media.istockphoto.com/id/1167344045/photo/cheesecake-slice-new-york-style-classical-cheese-cake.jpg?s=612x612&w=0&k=20&c=y3eh7cFEefAYxB_5Ow2n1OJZML_PqFOdnB5Z9nvXdgw=",
         description: "Creamy cheesecake with a graham cracker crust"
     },
     {
@@ -97,7 +97,7 @@ const menuItems = [
         name: "Apple Pie",
         price: 6.50,
         category: "desserts",
-        image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=500&q=80",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUUHfYYV7QjBt_bWqG3Bi4LWqTwpGdNUw73A&s",
         description: "Classic apple pie with cinnamon"
     }
 ];
