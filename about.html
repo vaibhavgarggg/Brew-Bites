@@ -76,6 +76,21 @@
     </style>
 </head>
 <body>
+    <nav class="navbar">
+        <div class="nav-brand">Brew&Bytes</div>
+        <div class="nav-links">
+            <button onclick="window.location.href='index.html'" class="nav-button">Home</button>
+            <button onclick="window.location.href='menu.html'" class="nav-button">Menu</button>
+            <button onclick="window.location.href='about.html'" class="nav-button active">About</button>
+            <button onclick="window.location.href='blog.html'" class="nav-button">Blog</button>
+            <button onclick="window.location.href='contact.html'" class="nav-button">Contact</button>
+            <button onclick="window.location.href='gallery.html'" class="nav-button">Gallery</button>
+            <button onclick="window.location.href='#cart'" class="nav-button cart-icon">
+                Cart <span class="cart-count">0</span>
+            </button>
+            <button onclick="window.location.href='login.html'" class="nav-button login-btn">Login</button>
+        </div>
+    </nav>
     <div class="container">
         <div class="content-section">
             <section>
@@ -151,5 +166,4 @@
       </div>
       <script type="module" src="/main.js"></script>
     </body>
-</body>
 </html>
