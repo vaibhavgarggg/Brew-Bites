@@ -9,46 +9,46 @@
   
 </head>
 <body>
+    <nav class="navbar">
+        <div class="nav-brand">Brew&Bytes</div>
+    </nav>
+
+<main class="login-page">
     <div class="login-container">
-        <div class="form-header">
-            <h1>Login to Brew&Bytes</h1>
-            <p>Enter your credentials to continue</p>
-        </div>
-        <form id="loginForm" class="login-form" action="#" method="post">
+        <h1 class="form-header">Login to Brew & Bytes</h1>
+        <form id="loginForm" action="#" method="post" class="login-form" data-animate="true">
             <div class="input-group">
-                <label for="email">Email Address</label>
+                <label for="email">Email:</label>
                 <div class="input-field">
-                    <i class="fas fa-envelope input-icon"></i>
-                    <input type="email" id="email" name="email" required placeholder="your@email.com" />
+                    <input type="email" id="email" name="email" required placeholder="Enter your email" />
                 </div>
             </div>
             <div class="input-group">
-                <label for="password">Password</label>
+                <label for="password">Password:</label>
                 <div class="input-field">
-                    <i class="fas fa-lock input-icon"></i>
-                    <input type="password" id="password" name="password" required placeholder="••••••••" />
+                    <input type="password" id="password" name="password" required placeholder="Enter your password" />
                 </div>
-            </div>
-            <div class="remember-forgot">
-                <div class="remember-me">
-                    <input type="checkbox" id="remember" name="remember" />
-                    <label for="remember">Remember me</label>
-                </div>
-                <a href="#" class="forgot-password">Forgot password?</a>
             </div>
             <button type="submit" class="login-btn">Login</button>
-            <div class="divider">or continue with</div>
-            <div class="social-login">
-                <a href="#" class="social-btn facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-btn google"><i class="fab fa-google"></i></a>
-                <a href="#" class="social-btn apple"><i class="fab fa-apple"></i></a>
-            </div>
-            <div class="register-link">
-                Don't have an account? <a href="register.html">Register here</a>
-            </div>
         </form>
     </div>
+</main>
 
-    <script src="login.js"></script>
+<script>
+document.getElementById('loginForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const email = this.email.value.trim();
+    const password = this.password.value.trim();
+
+    if (!email || !password) {
+        alert('Please enter both email and password.');
+        return;
+    }
+
+    // Simulate login success and redirect to home page
+    window.location.href = 'index.html';
+});
+</script>
+
 </body>
 </html>

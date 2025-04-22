@@ -178,10 +178,35 @@ document.addEventListener('DOMContentLoaded', () => {
     // Login form
     document.getElementById('loginForm').addEventListener('submit', (e) => {
         e.preventDefault();
-        // Add login logic here
-        isLoggedIn = true;
-        loginBtn.textContent = 'Logout';
-        closeModal(loginModal);
+        const form = e.target;
+        const email = form.email.value.trim();
+        const password = form.password.value.trim();
+
+        // Simple validation
+        if (!email || !password) {
+            alert('Please enter both email and password.');
+            return;
+        }
+
+        // Disable submit button and show loading state
+        const submitBtn = form.querySelector('button[type="submit"]');
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Logging in...';
+
+        // Simulate login delay
+        setTimeout(() => {
+            isLoggedIn = true;
+            loginBtn.textContent = 'Logout';
+
+            // Smooth fade out login form
+            form.style.transition = 'opacity 0.5s ease';
+            form.style.opacity = '0';
+
+            setTimeout(() => {
+                // Redirect to home page
+                window.location.href = 'index.html';
+            }, 500);
+        }, 1000);
     });
 
     // Contact form
