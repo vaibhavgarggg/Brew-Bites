@@ -27,14 +27,43 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background: transparent;
+    background: var(--primary-color);
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
+}
 
+.nav-brand {
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.nav-button.active {
+    border-bottom: 2px solid white;
 }
 
 .nav-brand {
@@ -250,9 +279,11 @@ body {
 }
 
 @media (max-width: 768px) {
+    /*
     .nav-links {
         display: none;
     }
+    */
     
     .hero h1 {
         font-size: 2.5rem;
