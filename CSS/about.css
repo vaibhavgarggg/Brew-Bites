@@ -13,13 +13,13 @@
   }
   
   h1{
-    color: #ff6b6b;
+    color: #C0A062;
     text-align: center;
   }
   h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
-    color: #ff6b6b;
+    color: #C0A062;
   }
   
   p {
@@ -43,7 +43,7 @@
   
   .team-heading h1 {
     font-size: 2.5rem;
-    color: #ff6b6b;
+    color: #C0A062;
     margin-bottom: 0.5rem;
     position: relative;
     display: inline-block;
@@ -57,7 +57,7 @@
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background: #ff6b6b;
+    background: #C0A062;
   }
   
   .team-container {
@@ -91,7 +91,7 @@
     left: 0;
     right: 0;
     height: 5px;
-    background: #ff6b6b;
+    background: #C0A062;
   }
   
   .profile-image {
@@ -101,7 +101,7 @@
     margin: 0 auto 1rem;
     padding: 5px;
     background: white;
-    border: 2px solid #ff6b6b;
+    border: 2px solid #C0A062;
     overflow: hidden;
   }
   
@@ -119,7 +119,7 @@
   }
   
   .role {
-    color: #ff6b6b;
+    color: #C0A062;
     font-weight: 600;
     margin: 0.5rem 0;
   }
@@ -152,7 +152,7 @@
   }
   
   .social-link:hover {
-    background: #ff6b6b;
+    background: #C0A062;
     color: white;
   }
   
@@ -259,7 +259,7 @@
     position: absolute;
     top: -5px;
     left: 8px; /* Adjusted position */
-    background: #ff6b6b;
+    background: #C0A062;
     color: white;
     border-radius: 50%;
     width: 18px; /* Slightly smaller */
@@ -298,3 +298,169 @@
 }
 
   
+/* Footer Styles - Left, Center, Right Layout */
+.footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 60px 0 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+  gap: 40px;
+}
+
+.footer-section {
+  margin-bottom: 40px;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  position: relative;
+  color: #f8f8f8;
+  padding-bottom: 10px;
+}
+
+.footer-section h3::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  background: #c0a062;
+}
+
+/* Left: Follow Us */
+.follow-us .social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.follow-us .social-links a {
+  color: #ddd;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.follow-us .social-links a:hover {
+  color: #c0a062;
+  transform: translateX(5px);
+}
+
+.follow-us .social-links i {
+  font-size: 1.3rem;
+}
+
+/* Center: Newsletter */
+.newsletter #newsletterForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.newsletter #newsletterForm input {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 4px;
+  background: #2d2d2d;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.newsletter #newsletterForm input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #c0a062;
+  background: #333;
+}
+
+.newsletter #newsletterForm button {
+  padding: 12px 25px;
+  background: #c0a062;
+  color: #111;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.newsletter #newsletterForm button:hover {
+  background: #d4b570;
+  transform: translateY(-2px);
+}
+
+/* Right: QR Code */
+.qr-code .qr-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.qr-code .qr-placeholder img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #c0a062;
+  border-radius: 8px;
+  padding: 5px;
+  background: white;
+}
+
+.qr-code .qr-placeholder p {
+  font-size: 0.9rem;
+  color: #aaa;
+  text-align: center;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  background: #111;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+      grid-template-columns: 1fr; /* Stack on mobile */
+      gap: 30px;
+  }
+  
+  .footer-section {
+      text-align: center;
+  }
+  
+  .follow-us .social-links {
+      align-items: center;
+  }
+  
+  .footer-section h3::after {
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  
+  .qr-code .qr-placeholder {
+      margin: 0 auto;
+  }
+}
