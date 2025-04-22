@@ -32,7 +32,74 @@ const menuItems = [
         image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=500&q=80",
         description: "Classic Italian coffee-flavored dessert"
     },
-    // Add more menu items as needed
+    // New coffee items
+    {
+        id: 5,
+        name: "Latte",
+        price: 4.50,
+        category: "coffee",
+        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=80",
+        description: "Smooth espresso with steamed milk"
+    },
+    {
+        id: 6,
+        name: "Mocha",
+        price: 5.00,
+        category: "coffee",
+        image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=500&q=80",
+        description: "Espresso with chocolate and steamed milk"
+    },
+    // New breakfast items
+    {
+        id: 7,
+        name: "French Toast",
+        price: 11.00,
+        category: "breakfast",
+        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80",
+        description: "Golden brown French toast with syrup"
+    },
+    {
+        id: 8,
+        name: "Breakfast Burrito",
+        price: 13.00,
+        category: "breakfast",
+        image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=500&q=80",
+        description: "Eggs, cheese, and sausage wrapped in a tortilla"
+    },
+    // New lunch items
+    {
+        id: 9,
+        name: "Veggie Burger",
+        price: 15.00,
+        category: "lunch",
+        image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=500&q=80",
+        description: "Delicious plant-based burger with fries"
+    },
+    {
+        id: 10,
+        name: "Pasta Primavera",
+        price: 16.50,
+        category: "lunch",
+        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80",
+        description: "Pasta with fresh vegetables and light sauce"
+    },
+    // New dessert items
+    {
+        id: 11,
+        name: "Cheesecake",
+        price: 7.00,
+        category: "desserts",
+        image: "https://images.unsplash.com/photo-1562440499-64a7a1f7a7a7?auto=format&fit=crop&w=500&q=80",
+        description: "Creamy cheesecake with a graham cracker crust"
+    },
+    {
+        id: 12,
+        name: "Apple Pie",
+        price: 6.50,
+        category: "desserts",
+        image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=500&q=80",
+        description: "Classic apple pie with cinnamon"
+    }
 ];
 
 // Cart state
