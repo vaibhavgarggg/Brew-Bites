@@ -23,7 +23,7 @@
   }
   
   p {
-    color: #D1D5DB;
+    color: #5c5c5e;
     line-height: 1.7;
     margin-bottom: 1.5rem;
   }
@@ -198,3 +198,103 @@
       max-width: 280px;
     }
   }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 99%;
+    background: rgba(74, 52, 40, 0.98); /* Keeping original coffee-themed color */
+    padding: 0.5rem 1.5rem; /* Reduced padding for compact look */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1100;
+    min-height: 50px; /* Reduced height */
+    line-height: 50px; /* Adjusted line height */
+}
+
+.nav-brand {
+    color: white;
+    font-size: 1.5rem; /* Slightly smaller brand text */
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Reduced gap between items */
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 0.9rem; /* Slightly smaller font */
+    cursor: pointer;
+    padding: 0.3rem 0.8rem; /* More compact padding */
+    transition: all 0.2s ease;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+.nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.nav-button.active {
+  
+  border-bottom: 2px solid white;
+
+}
+
+.cart-icon {
+    position: relative;
+    padding-left: 1.8rem; /* Slightly adjusted */
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    left: 8px; /* Adjusted position */
+    background: #ff6b6b;
+    color: white;
+    border-radius: 50%;
+    width: 18px; /* Slightly smaller */
+    height: 18px; /* Slightly smaller */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.65rem; /* Smaller font */
+}
+
+.login-btn {
+    background-color: rgba(74, 52, 40, 0.98);
+    color: white !important;
+    margin-left: 8px; /* Reduced margin */
+    padding: 0.4rem 1rem; /* More compact */
+}
+
+.login-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+    
+    .nav-brand {
+        font-size: 1.3rem;
+    }
+    
+    .nav-button {
+        font-size: 0.8rem;
+        padding: 0.2rem 0.6rem;
+    }
+}
+
+  
