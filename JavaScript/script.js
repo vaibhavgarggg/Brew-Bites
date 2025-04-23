@@ -99,9 +99,25 @@ const menuItems = [
         category: "desserts",
         image: "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=500&q=80",
         description: "Classic apple pie with cinnamon"
-    }
-];
-
+    },
+    {
+        id: 13,
+        name: "Oakwood Latte",
+        price: 4.50,
+        category: "coffee",
+        coffee: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSah1-42YZm9PZHcuFn5h2o9BXk8yL8JHXSGA&s",
+        description: "Rich and creamy latte with oakwood flavor"
+    },
+    {
+        id: 14,
+        name: "Iced Coffee",
+        price: 5.00,
+        category: "coffee",
+        coffee: "https://aeropress.com/cdn/shop/articles/20240515165404-aeropress-cold-brew-3_800x_636x_e20f869a-6929-41b9-aa33-f8801993affd_636x.png?v=1715792052",
+        description: "Refreshing iced coffee served cold"
+    },
+    
+]
 // Cart state
 let cart = [];
 
