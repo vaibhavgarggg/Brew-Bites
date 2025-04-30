@@ -105,7 +105,7 @@ const menuItems = [
         name: "Oakwood Latte",
         price: 4.50,
         category: "coffee",
-        coffee: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSah1-42YZm9PZHcuFn5h2o9BXk8yL8JHXSGA&s",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSah1-42YZm9PZHcuFn5h2o9BXk8yL8JHXSGA&s",
         description: "Rich and creamy latte with oakwood flavor"
     },
     {
@@ -113,10 +113,98 @@ const menuItems = [
         name: "Iced Coffee",
         price: 5.00,
         category: "coffee",
-        coffee: "https://aeropress.com/cdn/shop/articles/20240515165404-aeropress-cold-brew-3_800x_636x_e20f869a-6929-41b9-aa33-f8801993affd_636x.png?v=1715792052",
+        image: "https://aeropress.com/cdn/shop/articles/20240515165404-aeropress-cold-brew-3_800x_636x_e20f869a-6929-41b9-aa33-f8801993affd_636x.png?v=1715792052",
         description: "Refreshing iced coffee served cold"
     },
-    
+    // Additional new items up to id 25
+    {
+        id: 15,
+        name: "Chai Latte",
+        price: 4.75,
+        category: "coffee",
+        image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=500&q=80",
+        description: "Spiced tea with steamed milk"
+    },
+    {
+        id: 16,
+        name: "Blueberry Pancakes",
+        price: 10.50,
+        category: "breakfast",
+        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80",
+        description: "Fluffy pancakes with fresh blueberries"
+    },
+    {
+        id: 17,
+        name: "Quinoa Salad",
+        price: 13.50,
+        category: "lunch",
+        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80",
+        description: "Healthy quinoa salad with veggies"
+    },
+    {
+        id: 18,
+        name: "Chocolate Brownie",
+        price: 6.00,
+        category: "desserts",
+        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=80",
+        description: "Rich chocolate brownie with nuts"
+    },
+    {
+        id: 19,
+        name: "Cappuccino",
+        price: 4.25,
+        category: "coffee",
+        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=80",
+        description: "Espresso with steamed milk foam"
+    },
+    {
+        id: 20,
+        name: "Bagel with Cream Cheese",
+        price: 7.00,
+        category: "breakfast",
+        image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=500&q=80",
+        description: "Toasted bagel with cream cheese spread"
+    },
+    {
+        id: 21,
+        name: "Grilled Chicken Sandwich",
+        price: 14.00,
+        category: "lunch",
+        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80",
+        description: "Grilled chicken breast with lettuce and tomato"
+    },
+    {
+        id: 22,
+        name: "Lemon Tart",
+        price: 6.50,
+        category: "desserts",
+        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=80",
+        description: "Tangy lemon tart with a buttery crust"
+    },
+    {
+        id: 23,
+        name: "Flat White",
+        price: 4.75,
+        category: "coffee",
+        image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=500&q=80",
+        description: "Espresso with velvety steamed milk"
+    },
+    {
+        id: 24,
+        name: "Oatmeal with Fruits",
+        price: 9.00,
+        category: "breakfast",
+        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=80",
+        description: "Warm oatmeal topped with fresh fruits"
+    },
+    {
+        id: 25,
+        name: "Caesar Wrap",
+        price: 13.50,
+        category: "lunch",
+        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80",
+        description: "Caesar salad wrapped in a tortilla"
+    }
 ]
 // Cart state
 let cart = [];
