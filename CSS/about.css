@@ -202,99 +202,104 @@
   .navbar {
     position: fixed;
     top: 0;
-    width: 99%;
-    background: rgba(74, 52, 40, 0.98); /* Keeping original coffee-themed color */
-    padding: 0.5rem 1.5rem; /* Reduced padding for compact look */
+    width: 1520px;
+    background: rgba(74, 52, 40, 0.95); /* var(--primary-color) with opacity */
+    padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     z-index: 1100;
-    min-height: 50px; /* Reduced height */
-    line-height: 50px; /* Adjusted line height */
+    min-height: 60px;
+    line-height: 60px;
 }
 
 .nav-brand {
     color: white;
-    font-size: 1.5rem; /* Slightly smaller brand text */
-    font-weight: 600;
-    font-family: 'Inter', sans-serif;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 8px; /* Reduced gap between items */
 }
 
 .nav-button {
     background: none;
     border: none;
     color: white;
-    font-size: 0.9rem; /* Slightly smaller font */
+    font-size: 1rem;
+    margin-left: 1rem;
     cursor: pointer;
-    padding: 0.3rem 0.8rem; /* More compact padding */
-    transition: all 0.2s ease;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-button:hover {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
 }
 
 .nav-button.active {
-  
-  border-bottom: 2px solid white;
+    border-bottom: 2px solid white;
+}
 
+.nav-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    font-weight: 600;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--accent-color);
 }
 
 .cart-icon {
     position: relative;
-    padding-left: 1.8rem; /* Slightly adjusted */
 }
 
 .cart-count {
     position: absolute;
-    top: -5px;
-    left: 8px; /* Adjusted position */
-    background: #C0A062;
-    color: white;
+    top: -8px;
+    right: -8px;
+    background: var(--accent-color);
+    color: var(--white);
     border-radius: 50%;
-    width: 18px; /* Slightly smaller */
-    height: 18px; /* Slightly smaller */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.65rem; /* Smaller font */
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
 }
 
 .login-btn {
-    background-color: rgba(74, 52, 40, 0.98);
-    color: white !important;
-    margin-left: 8px; /* Reduced margin */
-    padding: 0.4rem 1rem; /* More compact */
+    background: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 2rem;
 }
 
-.login-btn:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+.cta-button {
+    display: inline-block;
+    background: var(--accent-color);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease;
 }
 
-/* For mobile responsiveness */
-@media (max-width: 768px) {
-    .navbar {
-        padding: 0.5rem 1rem;
-    }
-    
-    .nav-brand {
-        font-size: 1.3rem;
-    }
-    
-    .nav-button {
-        font-size: 0.8rem;
-        padding: 0.2rem 0.6rem;
-    }
+.cta-button:hover {
+    background: var(--primary-color);
 }
 
   
