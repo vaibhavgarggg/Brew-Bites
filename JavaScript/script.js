@@ -63,7 +63,7 @@ const menuItems = [
         name: "Breakfast Burrito",
         price: 13.00,
         category: "breakfast",
-        image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=500&q=80",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbdGjkPZxb7Th8hSObUfieDLdNWJy_dxfXdw&s",
         description: "Eggs, cheese, and sausage wrapped in a tortilla"
     },
     // New lunch items
@@ -80,7 +80,7 @@ const menuItems = [
         name: "Pasta Primavera",
         price: 16.50,
         category: "lunch",
-        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80",
+        image: "https://cdn.loveandlemons.com/wp-content/uploads/2022/06/pasta-primavera-1.jpg",
         description: "Pasta with fresh vegetables and light sauce"
     },
     // New dessert items
@@ -122,7 +122,7 @@ const menuItems = [
         name: "Chai Latte",
         price: 4.75,
         category: "coffee",
-        image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=500&q=80",
+        image: "https://ifanca.org/app/uploads/2022/06/Spiced-Milk-AdobeStock_127796565-scaled.jpeg",
         description: "Spiced tea with steamed milk"
     },
     {
@@ -130,7 +130,7 @@ const menuItems = [
         name: "Blueberry Pancakes",
         price: 10.50,
         category: "breakfast",
-        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD7cS8_3rEuOx5iwl2WxBNLACiEvfULPRsdA&s",
         description: "Fluffy pancakes with fresh blueberries"
     },
     {
@@ -138,7 +138,7 @@ const menuItems = [
         name: "Quinoa Salad",
         price: 13.50,
         category: "lunch",
-        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80",
+        image: "https://www.chelseasmessyapron.com/wp-content/uploads/2018/01/Quinoa-Recipes-1.jpeg",
         description: "Healthy quinoa salad with veggies"
     },
     {
@@ -146,7 +146,7 @@ const menuItems = [
         name: "Chocolate Brownie",
         price: 6.00,
         category: "desserts",
-        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=80",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN_R-Ex4k_KkgvU-AEHq70vbk4JyFAMWuslw&s",
         description: "Rich chocolate brownie with nuts"
     },
     {
@@ -162,7 +162,7 @@ const menuItems = [
         name: "Bagel with Cream Cheese",
         price: 7.00,
         category: "breakfast",
-        image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=500&q=80",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ISPbC3K5FzeIyYKq1PiGqXdsIlc00DYYPw&s",
         description: "Toasted bagel with cream cheese spread"
     },
     {
@@ -170,7 +170,7 @@ const menuItems = [
         name: "Grilled Chicken Sandwich",
         price: 14.00,
         category: "lunch",
-        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0CvE9o82_-YLtp6-8LazDgniz49kHvB7SJg&s",
         description: "Grilled chicken breast with lettuce and tomato"
     },
     {
@@ -178,7 +178,7 @@ const menuItems = [
         name: "Lemon Tart",
         price: 6.50,
         category: "desserts",
-        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=80",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7ggMWdvDz4HDAh9_jdtOyFlU1dV7UpkVVA&s",
         description: "Tangy lemon tart with a buttery crust"
     },
     {
@@ -186,7 +186,7 @@ const menuItems = [
         name: "Flat White",
         price: 4.75,
         category: "coffee",
-        image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=500&q=80",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1bNjVehuVoM30zr0-T48yje3Mtv-CSJ3Mig&s",
         description: "Espresso with velvety steamed milk"
     },
     {
@@ -194,7 +194,7 @@ const menuItems = [
         name: "Oatmeal with Fruits",
         price: 9.00,
         category: "breakfast",
-        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=80",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtRqo2pY2jv5oZbzZo7AX1181yR3BTRucuXA&s",
         description: "Warm oatmeal topped with fresh fruits"
     },
     {
@@ -202,7 +202,7 @@ const menuItems = [
         name: "Caesar Wrap",
         price: 13.50,
         category: "lunch",
-        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80",
+        image: "https://www.twopeasandtheirpod.com/wp-content/uploads/2023/08/Chicken-Caesar-Wraps-14.jpg",
         description: "Caesar salad wrapped in a tortilla"
     }
 ]
