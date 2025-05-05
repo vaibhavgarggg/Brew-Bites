@@ -189,7 +189,7 @@ export const products = [
     description: "Refreshing iced coffee served cold"
   },
   {
-    id: 15,
+    id: 24,
     name: "Chai Latte",
     price: 4.75,
     category: "coffee",
@@ -197,7 +197,7 @@ export const products = [
     description: "Spiced tea with steamed milk"
   },
   {
-    id: 16,
+    id: 25,
     name: "Blueberry Pancakes",
     price: 10.50,
     category: "breakfast",
@@ -205,7 +205,7 @@ export const products = [
     description: "Fluffy pancakes with fresh blueberries"
   },
   {
-    id: 17,
+    id: 26,
     name: "Quinoa Salad",
     price: 13.50,
     category: "lunch",
@@ -213,7 +213,7 @@ export const products = [
     description: "Healthy quinoa salad with veggies"
   },
   {
-    id: 18,
+    id: 27,
     name: "Chocolate Brownie",
     price: 6.00,
     category: "desserts",
@@ -221,7 +221,7 @@ export const products = [
     description: "Rich chocolate brownie with nuts"
   },
   {
-    id: 19,
+    id: 28,
     name: "Cappuccino",
     price: 4.25,
     category: "coffee",
@@ -229,7 +229,7 @@ export const products = [
     description: "Espresso with steamed milk foam"
   },
   {
-    id: 20,
+    id: 29,
     name: "Bagel with Cream Cheese",
     price: 7.00,
     category: "breakfast",
