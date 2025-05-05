@@ -235,6 +235,46 @@ export const products = [
     category: "breakfast",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ISPbC3K5FzeIyYKq1PiGqXdsIlc00DYYPw&s",
     description: "Toasted bagel with cream cheese spread"
+  },
+  {
+    id: 30,
+    name: "Grilled Chicken Sandwich",
+    price: 14.00,
+    category: "lunch",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0CvE9o82_-YLtp6-8LazDgniz49kHvB7SJg&s",
+    description: "Grilled chicken breast with lettuce and tomato"
+  },
+  {
+    id: 31,
+    name: "Lemon Tart",
+    price: 6.50,
+    category: "desserts",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7ggMWdvDz4HDAh9_jdtOyFlU1dV7UpkVVA&s",
+    description: "Tangy lemon tart with a buttery crust"
+  },
+  {
+    id: 32,
+    name: "Flat White",
+    price: 4.75,
+    category: "coffee",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1bNjVehuVoM30zr0-T48yje3Mtv-CSJ3Mig&s",
+    description: "Espresso with velvety steamed milk"
+  },
+  {
+    id: 33,
+    name: "Oatmeal with Fruits",
+    price: 9.00,
+    category: "breakfast",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtRqo2pY2jv5oZbzZo7AX1181yR3BTRucuXA&s",
+    description: "Warm oatmeal topped with fresh fruits"
+  },
+  {
+    id: 34,
+    name: "Caesar Wrap",
+    price: 13.50,
+    category: "lunch",
+    image: "https://www.twopeasandtheirpod.com/wp-content/uploads/2023/08/Chicken-Caesar-Wraps-14.jpg",
+    description: "Caesar salad wrapped in a tortilla"
   }
 ];
 
