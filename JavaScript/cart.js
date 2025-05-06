@@ -100,6 +100,7 @@ const renderCartItems = () => {
     const cartItem = document.createElement('li');
     cartItem.classList.add('cart-item');
     cartItem.dataset.id = item.id;
+    cartItem.dataset.variant = item.variant || '';
     
     cartItem.innerHTML = `
       <div class="cart-item-image">
@@ -137,7 +138,7 @@ const renderCartItems = () => {
     
     decrementBtn.addEventListener('click', () => decrementItem(item.id));
     incrementBtn.addEventListener('click', () => incrementItem(item.id));
-    removeBtn.addEventListener('click', () => removeItem(item.id));
+    removeBtn.addEventListener('click', () => removeItem(item.id, item.variant));
   });
 };
 
@@ -196,39 +197,34 @@ const addItem = (productId, variant = null) => {
 };
 
 // Remove item from cart
-const removeItem = (productId) => {
-  const itemIndex = cart.findIndex(item => item.id === productId);
-  
+const removeItem = (productId, variant = null) => {
+  const itemIndex = cart.findIndex(item =>
+    item.id === productId && item.variant === variant
+  );
+
   if (itemIndex !== -1) {
     const productName = products.find(p => p.id === productId)?.name || 'Item';
-    
-    // Get the DOM element
-    const itemElement = document.querySelector(`.cart-item[data-id="${productId}"]`);
-    
+
+    // Find DOM element with both id and variant
+    const itemSelector = `.cart-item[data-id="${productId}"][data-variant="${variant || ''}"]`;
+    const itemElement = document.querySelector(itemSelector);
+
     if (itemElement) {
-      // Animate removal
       itemElement.classList.add('removing');
-      
-      // Wait for animation to complete
       setTimeout(() => {
-        // Remove from array
         cart.splice(itemIndex, 1);
-        
-        // Save and update display
         saveCart();
         updateCartDisplay();
-        
-        // Show notification
         showNotification(`${productName} removed from cart`);
       }, 300);
     } else {
-      // No animation needed
       cart.splice(itemIndex, 1);
       saveCart();
       updateCartDisplay();
     }
   }
 };
+
 
 // Increment item quantity
 const incrementItem = (productId) => {
