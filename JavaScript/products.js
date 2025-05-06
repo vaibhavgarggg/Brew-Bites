@@ -51,7 +51,7 @@ export const products = [
     description: 'Sourdough toast topped with mashed avocado, cherry tomatoes, and microgreens.',
     price: 8.99,
     category: 'breakfast',
-    image: 'https://images.unsplash.com/photo-1608363831438-06d9293864c9?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmVaD5wpr8nMt3MUekSGYwjGkHsZAmrceaYg&s',
     popular: true
   },
   {
@@ -69,7 +69,7 @@ export const products = [
     description: 'Quinoa with roasted vegetables, feta cheese, olives, and lemon tahini dressing.',
     price: 10.99,
     category: 'lunch',
-    image: 'https://images.unsplash.com/photo-1556386470-bcdc6a9e9197?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ubzUK1NKmmpzrqVaYBd_TyHFh4L_Jfm26w&s',
     popular: true
   },
   {
@@ -79,14 +79,6 @@ export const products = [
     category: "coffee",
     image: "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=500&q=80",
     description: "Rich and bold espresso shot"
-  },
-  {
-    id: 10,
-    name: "Avocado Toast",
-    price: 12.00,
-    category: "breakfast",
-    image: "https://images.unsplash.com/photo-1588137378633-dea1336ce1e2?auto=format&fit=crop&w=500&q=80",
-    description: "Smashed avocado on artisanal bread"
   },
   {
     id: 11,
