@@ -150,11 +150,19 @@
     text-decoration: none;
     transition: all 0.3s ease;
   }
-  
+  .social-link i {
+    color:#2d3436 ; /* Inherits color from parent */
+   }
+  .social-link i:hover {
+    
+    color: white ;
+   }
+
   .social-link:hover {
     background: #C0A062;
-    color: white;
+    color: white ;
   }
+  
   
   @media (max-width: 1024px) {
     .mission-container {
