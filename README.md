@@ -3,7 +3,7 @@
 Welcome to **Brew & Bites Café**, an elegant and responsive web application for a coffee shop. This project showcases products, allows users to add items to a cart, and provides a smooth shopping and checkout experience.
 
 ## 🌐 Live Demo
-Coming soon...
+https://brew-bites-smoky.vercel.app/
 
 ---
 
